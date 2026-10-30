@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+  <rect width="1400" height="1000" fill="#d6c9bb"/>
+  <path d="M0 1000 L1400 0" stroke="#6a4f38" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 0 L1400 1000" stroke="#6a4f38" stroke-opacity=".18" stroke-width="2"/>
+  <text x="700.0" y="500.0" fill="#6a4f38" fill-opacity=".75" font-family="Helvetica, Arial, sans-serif" font-size="45" text-anchor="middle" dominant-baseline="middle">Proyecto 03 · galería 04 (7:5)</text>
+</svg>

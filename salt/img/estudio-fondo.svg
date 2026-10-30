@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1900" viewBox="0 0 1600 1900">
+  <rect width="1600" height="1900" fill="#c98f5a"/>
+  <path d="M0 1900 L1600 0" stroke="#5a3417" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 0 L1600 1900" stroke="#5a3417" stroke-opacity=".18" stroke-width="2"/>
+  <text x="800.0" y="950.0" fill="#5a3417" fill-opacity=".75" font-family="Helvetica, Arial, sans-serif" font-size="73" text-anchor="middle" dominant-baseline="middle">Estudio · imagen de fondo</text>
+</svg>

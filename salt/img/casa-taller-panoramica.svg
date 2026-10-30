@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+  <rect width="1800" height="900" fill="#c4cbd2"/>
+  <path d="M0 900 L1800 0" stroke="#3e4f5c" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 0 L1800 900" stroke="#3e4f5c" stroke-opacity=".18" stroke-width="2"/>
+  <text x="900.0" y="450.0" fill="#3e4f5c" fill-opacity=".75" font-family="Helvetica, Arial, sans-serif" font-size="41" text-anchor="middle" dominant-baseline="middle">Proyecto 04 · foto 2:1</text>
+</svg>

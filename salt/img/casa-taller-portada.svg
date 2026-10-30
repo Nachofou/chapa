@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+  <rect width="1800" height="1100" fill="#3e4f5c"/>
+  <path d="M0 1100 L1800 0" stroke="#c4cbd2" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 0 L1800 1100" stroke="#c4cbd2" stroke-opacity=".18" stroke-width="2"/>
+  <text x="900.0" y="550.0" fill="#c4cbd2" fill-opacity=".75" font-family="Helvetica, Arial, sans-serif" font-size="50" text-anchor="middle" dominant-baseline="middle">Proyecto 04 · portada</text>
+</svg>

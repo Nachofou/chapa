@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Tokens de marca ---------- */
+:root {
+  /* Cambiar acá las fuentes del cliente */
+  --fuente-display: 'Jost';
+  --fuente-texto: 'Inter Tight';
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    text-rendering: geometricPrecision;
+  }
+  body {
+    font-family: var(--fuente-texto), sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    letter-spacing: .005rem;
+    font-weight: 400;
+    background: #fff;
+    color: #000;
+  }
+  a { text-decoration: none; }
+  ol, ul { margin-left: 1rem; }
+}
+
+/* ---------- Componentes ---------- */
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+}
+
+/* Fundido de entrada de cada página */
+.pagina {
+  opacity: 0;
+  transition: opacity .5s cubic-bezier(.5, 0, .25, 1);
+}
+.pagina.visible { opacity: 1; }
+.pagina.saliendo {
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+/* Aparición al hacer scroll (equivalente a animate.css fadeIn, 1s) */
+.animado { opacity: 0; }
+.animado.en-vista { animation: aparecer 1s both; }
+@keyframes aparecer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Cursor personalizado sobre imágenes y cuadrados del pie */
+.cursor-marca:hover {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>📐</text></svg>") 16 0, auto;
+}
+
+/* Cuadrado del pie que se expande a ficha de contacto */
+.cuadro-pie {
+  transform: scale(.675);
+}
+.cuadro-pie.expandido {
+  transform: scale(1);
+}
+@media only screen and (max-width: 767px) {
+  .cuadro-pie {
+    top: 39vh;
+    right: 10px;
+    width: 33.3333vw;
+  }
+  .cuadro-pie.expandido {
+    margin-top: auto;
+    left: 0;
+    right: auto;
+    width: 100vw !important;
+    min-height: 50vh;
+    bottom: 0;
+    z-index: 3;
+    transform-origin: top right;
+  }
+  .menu-1-movil { width: 100vw !important; height: 50vh; aspect-ratio: auto !important; right: 0; }
+  .menu-2-movil { width: 100vw !important; position: fixed; bottom: 0; height: 50vh; z-index: 5; }
+}
+
+/* Títulos de las fichas de proyecto */
+@media only screen and (min-width: 767px) and (max-width: 1536px) {
+  .titulo-dos { line-height: 2.3 !important; }
+}
+@media only screen and (min-width: 1537px) {
+  .titulo-dos { line-height: 2.5 !important; }
+}
+
+/* Slider de croquis con fundido */
+.croquis-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.croquis-slide.activo {
+  position: relative;
+  opacity: 1;
+}
+
+/* Aviso "Copiado" */
+.aviso-copiado {
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+  opacity: 0;
+  transition: opacity .5s;
+  pointer-events: none;
+}

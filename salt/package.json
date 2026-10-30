@@ -1,0 +1,11 @@
+{
+  "name": "arq-plano-27",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/estilos.css -o ./css/estilos.css --minify",
+    "dev": "tailwindcss -i ./src/estilos.css -o ./css/estilos.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.3"
+  }
+}

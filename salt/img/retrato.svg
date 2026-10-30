@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000">
+  <rect width="900" height="1000" fill="#9c9a8a"/>
+  <path d="M0 1000 L900 0" stroke="#33322b" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 0 L900 1000" stroke="#33322b" stroke-opacity=".18" stroke-width="2"/>
+  <text x="450.0" y="500.0" fill="#33322b" fill-opacity=".75" font-family="Helvetica, Arial, sans-serif" font-size="41" text-anchor="middle" dominant-baseline="middle">Retrato</text>
+</svg>
