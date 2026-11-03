@@ -8,11 +8,11 @@
 const ESTUDIO = {
   nombre: 'ARQ PLANO 27',
   lugar: 'Buenos Aires + Rosario',
-  firma: 'Estudio de arquitectura<br>dirigido por<br><i>Nombre Apellido</i>',
+  firma: 'Estudio de arquitectura<br>dirigido por<br><i>Maca</i>',
   telefono: '+54 9 11 0000 0000',
-  email: 'hola@arqplano27.com',
-  instagram: '@arqplano27',
-  instagramUrl: 'https://instagram.com/arqplano27',
+  email: 'hola@arq.plano27.com',
+  instagram: '@arq.plano27',
+  instagramUrl: 'https://www.instagram.com/arq.plano27/',
   anio: '2026',
 };
 
