@@ -1,4 +1,4 @@
-# ARQ PLANO 27 — sitio base
+# Arq Plano 27 — sitio base
 
 Sitio estático (HTML + Tailwind compilado + JS propio). Reproduce los colores, las tipografías, la grilla, el menú, las transiciones y las animaciones de referencia. Los textos y las imágenes son de ejemplo y hay que reemplazarlos.
 

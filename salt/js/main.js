@@ -1,4 +1,4 @@
-/* ARQ PLANO 27 — interacciones del sitio
+/* Arq Plano 27 — interacciones del sitio
  * Menú con composiciones de color, transición entre páginas, textos fijos
  * al hacer scroll (GSAP ScrollTrigger), aparición de imágenes, slider de
  * croquis y fichas de contacto desplegables.
@@ -6,7 +6,7 @@
 
 /* ---------- Datos de contacto (editar acá) ---------- */
 const ESTUDIO = {
-  nombre: 'ARQ PLANO 27',
+  nombre: 'Arq Plano 27',
   lugar: 'Buenos Aires + Rosario',
   firma: 'Estudio de arquitectura<br>dirigido por<br><i>Macarena Echazu</i>',
   telefono: '+54 9 11 0000 0000',
@@ -55,10 +55,8 @@ function fichaContacto(columnas = 'grid-cols-6') {
     <div class="text-p1 grid ${columnas} gap-x-[10px] md:gap-x-15">
       <p class="col-span-3">${ESTUDIO.lugar}</p>
       <p class="col-span-3 mb-[26vh] md:mb-[226px]">${ESTUDIO.firma}</p>
-      <p class="col-start-3">T</p>
-      <p class="col-span-3 cursor-pointer" data-copiar>${ESTUDIO.telefono}</p>
-      <p class="col-start-3">E</p>
-      <p class="col-span-3 cursor-pointer" data-copiar>${ESTUDIO.email}</p>
+      <p class="col-start-4 col-span-3 cursor-pointer" data-copiar>${ESTUDIO.telefono}</p>
+      <p class="col-start-4 col-span-3 cursor-pointer" data-copiar>${ESTUDIO.email}</p>
       <p class="col-start-4 mt-5">Instagram <br> <a target="_blank" rel="noopener" href="${ESTUDIO.instagramUrl}">${ESTUDIO.instagram}</a></p>
       <p class="absolute bottom-0 left-0 p-15">Copyright © ${ESTUDIO.anio} <br> ${ESTUDIO.nombre}</p>
     </div>`;
