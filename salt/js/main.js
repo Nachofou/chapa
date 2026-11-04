@@ -10,7 +10,7 @@ const ESTUDIO = {
   lugar: 'Buenos Aires + Rosario',
   firma: 'Estudio de arquitectura<br>dirigido por<br><i>Macarena Echazu</i>',
   telefono: '+54 9 11 0000 0000',
-  email: 'hola@arq.plano27.com',
+  email: 'hola@arqplano27.com',
   instagram: '@arq.plano27',
   instagramUrl: 'https://www.instagram.com/arq.plano27/',
   anio: '2026',
